@@ -1,0 +1,213 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 32px 0 163px 42px;
+    cursor: pointer;
+}
+
+.links-header {
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    letter-spacing: 0.88px;
+    margin-right: 36px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    letter-spacing: 1px;
+
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background-color: #6FBF44;
+    cursor: pointer;
+}
+
+.wide-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.6px;
+    margin-bottom: 47px;
+
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+
+}
+
+.learn-more {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+    margin-top: 55px;
+
+}
+
+/* LARGURA */
+
+@media screen and (max-width: 1400px) {
+    header {
+        margin: 32px 0 50px 42px
+    }
+
+}
+
+@media screen and (max-width: 796px) {
+
+    header {
+        margin: 32px 0 50px 42px;
+    }
+
+    .wide-logo {
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .wide-logo {
+        display: inline-block;
+        margin: 0 120px;
+        
+    }
+}
+
+@media screen and (max-width: 553px) {
+
+    header {
+        margin: 0 0 83px 0;
+    }
+
+    .sumir:not(button) {
+        display: none;
+    }
+
+    .button-header {
+        display: block;
+        position: absolute;
+        top: 17px;
+        right: 15px;
+
+    }
+
+
+    section {
+        display: inline-block;
+        position: static;
+        margin: 76px 43px 59px;
+
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        margin: 0 auto;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 29px auto;
+        width: 90%;
+        height: 90%;
+    }
+
+    .learn-more {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+
+
+    }
+
+    .wide-logo {
+
+        display: block;
+        max-width: 80%;
+        max-height: 40%;
+        position: absolute;
+        bottom: 2.5%;
+        left: 10%;
+        margin: 0 auto;
+
+
+    }
+}
+
+/* ALTURA */
+
+@media screen and (max-height: 781px) {
+
+    header {
+        margin: 0 0 25px 0;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    p {
+        line-height: 25px;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-height: 585px) {
+    .wide-logo {
+        display: none;
+    }
+}
